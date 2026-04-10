@@ -1,0 +1,25 @@
+name: Request a FizzBuzz Implementation
+description: ———
+labels: [fizzbuzz]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Thanks for requesting this!
+
+        Fill in this form to request an implementation of FizzBuzz in a different language.
+        Please make sure to check for existing issues before opening a new one.
+  - type: input
+    attributes:
+      label: Language
+      description: |
+        The name of the language you wish to implement it in.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Notes
+      description: |
+        Any notes to keep in mind for the person implementing it.
+    validations:
+      required: false
